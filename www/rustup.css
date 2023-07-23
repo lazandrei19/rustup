@@ -149,6 +149,7 @@ hr {
 #platform-instructions-win64 button.copy-button,
 #platform-instructions-default button.copy-button,
 #platform-instructions-unknown button.copy-button {
+    position: relative;
     height: 58px;
     margin: 0;
     padding: 0 5px 0 5px;
@@ -162,7 +163,7 @@ hr {
 #platform-instructions-win64 div.copy-icon,
 #platform-instructions-default div.copy-icon,
 #platform-instructions-unknown div.copy-icon {
-    position: relative;
+    position: absolute;
     width: fit-content;
     height: fit-content;
     top: 50%;
